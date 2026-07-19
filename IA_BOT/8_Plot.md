@@ -62,8 +62,11 @@ Ubicar las reglas de negocio dentro de los procesos afectados.
 Mostrar:
 Proceso
 │
+
 ├─ Regla
+
 ├─ Validación
+
 └─ Restricción
 
 # 8. Dependencias Funcionales
