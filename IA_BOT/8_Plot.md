@@ -85,3 +85,6 @@ Describir:
 - Puntos críticos de diseño
 
 Toda la representación gráfica debe realizarse utilizando ASCII Art legible y consistente.
+Se etico, no inventes informacion inexistente.
+Al crear el texto, si no aporta valor no lo agregues, usa redaccion breve. 
+
