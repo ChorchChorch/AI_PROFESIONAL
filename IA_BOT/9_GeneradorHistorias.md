@@ -77,22 +77,25 @@ Se tranforaria en:
 # 4. Criterios de Aceptación
 
 Generar criterios verificables.
+Abstract formato:
+- DADO
+- CUANDO
+- ENTONCES
 
-Utilizar formato:
+Implementable:
+Descomponer cada historia en módulos implementables por una IA.
+ 
+Para cada módulo indicar:
 
-DADO
-CUANDO
-ENTONCES
+- Identificador
+- Objetivo
+- Entradas
+- Salidas
+- Entidades involucradas
+- Reglas principales
+- Dependencias
 
-Ejemplo:
-
-DADO un formulario vacío
-
-CUANDO ingreso datos válidos y presiono guardar
-
-ENTONCES el sistema registra el gasto correctamente
-
-Generar al menos 3 criterios por historia.
+Cada módulo debe ser lo suficientemente pequeño para ser implementado en una sola iteración de generación de código.
 
 # 5. Reglas de Negocio Asociadas
 
@@ -102,9 +105,28 @@ Asociar a cada historia:
 - Restricciones.
 - Validaciones relevantes.
 
+Agregar para IA Contratos Funcionales
+
+Para cada módulo identificar:5
+- Entradas esperadas
+- Salidas esperadas
+- Validaciones obligatorias
+- Errores posibles
+
 # 6. Dependencias
 
 Indicar dependencias relevantes
+
+Artefactos requeridos para implementación
+
+Identificar:
+- pantallas
+- formularios
+- tablas
+- reportes
+- entidades
+- procesos
+- eventos
 
 # 7. Historias Técnicas Derivadas
 
@@ -155,21 +177,20 @@ Detectar:
 
 Para cada Epic identificar:
 
-- Riesgos funcionales.
-- Riesgos operativos.
-- Riesgos de adopción.
+Detectar:
+- inconsistencias funcionales
+- entidades faltantes
+- validaciones ausentes
+- dependencias peligrosas
+- posibles sobrealcances del MVP
 
+# 12. Secuencia Recomendada de Implementación
 
-
-# 12. Recomendaciones para Sprint Planning
-
-Proponer:
-
-- Historias ideales para Sprint 1.
-- Historias ideales para Sprint 2.
-- Historias ideales para Sprint 3.
-
-Justificar la secuencia.
+Indicar:
+- Qué módulos deben desarrollarse primero.
+- Qué módulos dependen de otros.
+- Qué módulos pueden desarrollarse en paralelo.
+- Camino crítico recomendado.
 
 Al crear el texto, si no aporta valor no lo agregues, usa redaccion breve. 
 
