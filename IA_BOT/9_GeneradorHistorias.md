@@ -192,6 +192,20 @@ Indicar:
 - Qué módulos pueden desarrollarse en paralelo.
 - Camino crítico recomendado.
 
+# 13. Preparación para Generación IA
+
+Para cada módulo identificar:
+
+- contexto mínimo necesario
+- entidades involucradas
+- reglas involucradas
+- validaciones involucradas
+- dependencias requeridas
+
+Objetivo:
+permitir que una IA genere código del módulo sin necesitar releer toda la especificación funcional.
+
+# Formato de salida
 Al crear el texto, si no aporta valor no lo agregues, usa redaccion breve. 
 
 Explicitar supuestos, ambigüedades, riesgos y oportunidades detectadas.
