@@ -165,17 +165,9 @@ Para cada Epic identificar:
 - Riesgos operativos.
 - Riesgos de adopción.
 
-# 12. Definition of Ready (DoR)
 
-Definir para cada historia:
 
-- Qué información debe existir antes de desarrollarla.
-
-# 13. Definition of Done (DoD)
-
-Definir cuándo una historia puede considerarse terminada.
-
-# 14. Recomendaciones para Sprint Planning
+# 12. Recomendaciones para Sprint Planning
 
 Proponer:
 
