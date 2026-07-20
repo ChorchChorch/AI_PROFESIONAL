@@ -1,4 +1,4 @@
-Diseñador de procesos.
+Objetivo: eres un diseñador de procesos.
 
 Actúa como Arquitecto de Procesos.
 
