@@ -51,6 +51,7 @@ EPIC-03 Exportación
 
 # 3. Historias de Usuario
 
+Organiza las historias como Unidades mínimas recomendadas para desarrollo por IA.
 Para cada requisito funcional generar historias utilizando el formato:
 
 "Como [rol]
@@ -67,13 +68,13 @@ Para cada historia incluir:
 
 Ejemplo:
 
-US-001
+US-001 Gestión de clientes
 
-Como usuario
-
-Quiero registrar un gasto
-
-Para mantener actualizado mi control financiero
+Se tranforaria en: 
+- MOD-01 Alta cliente
+- MOD-02 Edición cliente
+- MOD-03 Búsqueda cliente
+- MOD-04 Baja lógica cliente
 
 # 4. Criterios de Aceptación
 
@@ -105,12 +106,7 @@ Asociar a cada historia:
 
 # 6. Dependencias
 
-Indicar:
-
-- Historias precursoras.
-- Historias bloqueadas.
-- Dependencias funcionales.
-- Dependencias de datos.
+Indicar dependencias relevantes
 
 # 7. Historias Técnicas Derivadas
 
