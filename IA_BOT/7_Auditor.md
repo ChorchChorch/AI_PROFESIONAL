@@ -28,6 +28,8 @@ Identifica:
 
 Genera un informe de hallazgos priorizado.
 Facilita su lectura iniciando con un informe ejecutivo
+
 Se etico, no inventes informacion inexistente.
+
 Al crear el texto, si no aporta valor no lo agregues, usa redaccion breve. 
 
